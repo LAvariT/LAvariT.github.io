@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Emerald page theme */
+body.emerald {
+    background-color: #50C878; /* A shade of green typical of emeralds */
+    color: #ffffff; /* White text for better contrast */
+}
+
+/* Ruby page theme */
+body.ruby {
+    background-color: #E0115F; /* A deep pinkish-red, resembling ruby */
+    color: #ffffff;
+}
+
+/* Sapphire page theme */
+body.sapphire {
+    background-color: #0F52BA; /* A vivid blue typical of sapphires */
+    color: #ffffff;
+}
+
+/* Keep existing styles, and add specific styles for the content areas to ensure readability */
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for content to ensure readability */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+header, nav, footer {
+    background-color: #f2f2f2;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    margin-top: 20px;
+}
